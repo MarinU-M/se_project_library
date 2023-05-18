@@ -274,7 +274,7 @@
   flex-wrap: wrap;
   justify-content: center;
   max-width: 760px;
-  padding: 68px 0;
+  padding: 68px 0 0;
   gap: 40px;;
   margin: auto;
 }
@@ -396,7 +396,14 @@
 
 .about__paragraph {
   margin: 32px;
+}
 
+.about__paragraph:first-child {
+  margin-top: 0;
+}
+
+.about__paragraph:last-child{
+  margin-bottom: 0;
 }
 
 .about__circle {
@@ -477,5 +484,5 @@
 }
 
 .footer__copyright {
-  margin-bottom: 0;
+  margin: 0;
 }
