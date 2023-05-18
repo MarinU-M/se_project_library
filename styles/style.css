@@ -395,7 +395,7 @@
 }
 
 .about__paragraph {
-  margin: 32px;
+  margin: 32px 0;
 }
 
 .about__paragraph:first-child {
