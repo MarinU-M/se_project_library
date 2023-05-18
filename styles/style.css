@@ -53,6 +53,7 @@
   line-height: 76px;
   font-weight: 500;
   margin: 150px 0px 32px;
+  z-index: 1;
 }
 
 .header__description {
@@ -60,6 +61,7 @@
   font-size: 20px;
   line-height: 30px;
   margin: 0;
+  z-index: 1;
 }
 
 .header__image {
